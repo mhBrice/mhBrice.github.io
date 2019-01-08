@@ -1,6 +1,3 @@
-[submodule "themes/hyde-hyde"]
-	path = themes/hyde-hyde
-	url = https://github.com/htr3n/hyde-hyde.git
-[submodule "themes/min-academic"]
-	path = themes/min-academic
-	url = https://github.com/jhu247/minimal-academic.git
+[submodule "themes/hugo-KevCaz"]
+	path = themes/hugo-KevCaz
+	url = https://github.com/KevCaz/hugo-KevCaz.git
