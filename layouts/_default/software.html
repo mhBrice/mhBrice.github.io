@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+  <h1><i class="fa fa-{{ .Params.icon }}" aria-hidden="true"></i> {{ .Title }}</h1>
+  <hr>
+
+  {{ .Content }}
+
+  {{ range .Site.Data.software.softs }}
+    <div class="col-sm-6">
+      {{ with .github }} <a href="https://github.com/{{.}}" style="display:inline;"><i class="fa fa-2x fa-github" aria-hidden="true"></i>&nbsp;&nbsp;</a>{{ end }}<h3 style="font-weight:bold;display:inline;"> {{ .name }} </h3>
+      <hr>
+      <p> <b> {{ .category }} </b> - {{ .description }} </p>
+      <p style="margin-top:10px;">
+         {{ with .travis }} <a href="https://travis-ci.org/{{ .repo }}">
+         <img alt = "Build Status"  src="https://travis-ci.org/{{ .repo }}.svg?branch={{ .branch }}"></img></a> {{ end }}
+         {{ range .badges }} {{ . | markdownify }} {{ end }}
+         <br><br>
+    </div>
+  {{ end }}
+
+{{ end }}

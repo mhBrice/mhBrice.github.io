@@ -1,0 +1,20 @@
+menu:
+  - title: "About me"
+    anchor: "aboutme"
+    icon: user-circle-o
+
+  - title: "Background"
+    anchor: "background"
+    icon: graduation-cap
+
+  # - title: "Skills"
+  #   anchor: "skills"
+  #   icon: cogs
+
+  # - title: "Media"
+  #   anchor: "media"
+  #   icon: newspaper-o
+
+  - title: "Contact"
+    anchor: "contact"
+    icon: address-book-o

@@ -1,0 +1,35 @@
+<ul>
+  {{ range .Site.Data.poster.poster }}
+  <li class="pubs_li">
+    <!-- authors -->
+    {{ $letk := "Marie-Hélène" | truncate 1 "." }}
+    {{ $len := len .author }}
+    {{ $len2 := sub $len 1 }}
+    {{ range $i, $e := .author}}
+      {{ $let := .given | truncate 1 "." }}
+      {{ if (and (eq .family "Brice") (eq $let $letk)) }}
+        <b><span style="color: #780F44">
+          {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
+      {{ else }}
+        {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
+      {{ end }}
+    {{ end }}
+    <!-- END authors -->
+    <b> {{ .title }}. </b>
+    <!-- conf -->
+    {{ range .conference }}
+      <a href="{{ .url }}"> {{ .name }} </a> {{ dateFormat "01/2006" .date }}. {{ .where }}.
+    {{ end }}
+    <!-- END conf -->
+    {{ if .DOI }}
+      DOI: <a href="https://doi.org/{{ .DOI }}">{{ .DOI }}</i></a>
+    {{ end }}
+    {{ if .researchgate }}
+      <a href="https://www.researchgate.net/{{ .researchgate }}"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
+    {{ end }}
+    {{ if .pdf }}
+      <a href="{{ .pdf }}"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
+    {{ end }}
+  </li>
+  {{ end }}
+</ul>

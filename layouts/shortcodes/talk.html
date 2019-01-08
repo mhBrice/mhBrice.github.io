@@ -1,0 +1,37 @@
+  <ul>
+    {{ range .Site.Data.talk.talk }}
+    <li class="pubs_li">
+      <!-- authors -->
+      {{ $letk := "Marie-Hélène" | truncate 1 "." }}
+      {{ $len := len .author }}
+      {{ $len2 := sub $len 1 }}
+      {{ range $i, $e := .author}}
+        {{ $let := .given | truncate 1 "." }}
+        {{ if (and (eq .family "Brice") (eq $let $letk)) }}
+          <b><span style="color: #780F44">
+            {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
+        {{ else }}
+          {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
+        {{ end }}
+      {{ end }}
+      <!-- END authors -->
+      <b> {{ .title }}. </b>
+      <!-- conf -->
+      {{ range .conference }}
+        <a href="{{ .url }}"> {{ .name }} </a> {{ dateFormat "01/2006" .date }}. {{ .where }}.
+      {{ end }}
+      <!-- END conf -->
+      <!-- external links -->
+      {{ if .github }}
+        <a href="https://github.com/{{ .github }}"><i class="fa fa-github" aria-hidden="true"></i></a>
+      {{ end }}
+      {{ if .html }}
+        <a href="{{ .html }}"><i class="fa fa-globe" aria-hidden="true"></i></a>
+      {{ end }}
+      {{ if .pdf }}
+        <a href="{{ .pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+      {{ end }}
+      <!-- END external links -->
+    </li>
+    {{ end }}
+  </ul>

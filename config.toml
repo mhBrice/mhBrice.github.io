@@ -1,0 +1,120 @@
+baseurl = "https://mhBrice.github.io/"
+relativeurls = true
+languageCode = "en-us"
+title = "Marie-Hélène Brice"
+copyright = "&copy; 2018 Marie-Hélène Brice. "
+theme = "hugo-KevCaz"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  name = "Marie-Hélène Brice"
+  role = "PhD candidate in ecology"
+  organization = "Département de sciences biologiques, Université de Montréal"
+  organization_url = "https://bio.umontreal.ca/nc/accueil/"
+  avatar = "IMG_mhb.JPG"
+  twitter = "mariehbrice"
+  github = "mhBrice"
+  address = "Département de sciences biologiques, Pavillon Marie-Victorin, Université de Montréal, Montréal, H2V 2S9"
+  #office_hours = "Send me an email for setting an appointment."
+  email = "marie-helene.brice@umontreal.ca"
+  # phone = "514-318-8945"
+  skype = "mariehbrice"
+  skype_name = "Marie-Hélène Brice"
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Mon, Jan 2, 2006"
+
+  #  For more info on the highlighting options, see:   # https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
+  highlight = true
+  highlight_languages = ["bash", "html", "julia", "python", "r", "rust", "xml", "yaml"]
+  highlight_style = "monokai"
+  # highlight_version = "9.12.0"
+
+  # I follow the example given with highlightjs in academic theme to add mathjax and lealfet
+  mathjax = true
+  leaflet = true
+
+  font = ["Raleway"]
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = [
+    "/css/perso.css",
+    "/css/creativecommons.css",
+    "/css/flag-icon.css",
+    "https://fonts.googleapis.com/css?family=Open+Sans"
+  ]
+  custom_js  = [
+    "/js/mapoffice.js",
+  ]
+
+# google fonts
+# font = ["Changa One"]
+
+
+# Navigation Links
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 2
+[[menu.main]]
+    name = "Talks & Posters"
+    url = "/talks/"
+    weight = 3
+[[menu.main]]
+    name = "Teaching"
+    url = "/teaching/"
+    weight = 4
+# [[menu.main]]
+#     name = "Software"
+#     url = "/software/"
+#     weight = 5
+# [[menu.main]]
+#     name = "Notes"
+#     url = "/notes/"
+#     weight = 6
+[[menu.main]]
+    name = "Blog"
+    url = "https://insileco.github.io/"
+    weight = 7
+# [[menu.main]]
+#     name = "Perso"
+#     url = "/perso/"
+#     weight = 8
+
+# icon (font-awesome)
+[[menu.icon]]
+    name = "github"
+    url = "https://www.github.com/mhBrice"
+
+
+# Taxonomies.
+[taxonomies]
+  tag = "tags"
+  # category = "categories"
+
+# Languages
+# Create a [languages.X] block for each language you want, where X is the language ID.
+# Configure the English version of the website.
+[languages.en]
+  languageCode = "en-us"

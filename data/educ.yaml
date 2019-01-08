@@ -1,0 +1,30 @@
+educs:
+  - course: "PhD in Ecology"
+    institution:
+      - name: Université de Montréal
+        url: https://bio.umontreal.ca/nc/accueil/
+      - name: University of Toronto
+        url: http://www.eeb.utoronto.ca/home.htm
+    year: 2016-now
+
+  - course: "MSc in plant ecology"
+    institution:
+      - name: Institut de recherche en biologie végétale
+        url: http://www.irbv.umontreal.ca/
+      - name: Université de Montréal
+        url: https://bio.umontreal.ca/nc/accueil/
+    year: 2013-2015
+
+  - course: "Honor's BSc in Ecology, biodiversity & evolution"
+    institution:
+      - name: Université de Montréal
+        url: https://bio.umontreal.ca/nc/accueil/
+    year: 2010-2013
+
+curriculum:
+   - lang: "en"
+     pdf: "https://github.com/mhBrice/CV_latex/raw/master/CV_mhbrice_eng.pdf"
+#
+#   - lang: "fr"
+#     pdf: "/docs/cv/CV_KevCaz_fr.pdf"
+#     zip: "/docs/cv/CV_KevCaz_fr.zip"

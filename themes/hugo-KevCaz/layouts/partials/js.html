@@ -1,0 +1,15 @@
+<!-- tocify and dependencies -->
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="{{ "/js/jquery-ui-1.9.1.custom.min.js" | relURL }}"></script>
+<script src="{{ "/js/jquery.tocify.min.js" | relURL }}"></script>
+
+<!-- bootstrap 3.3.7 via CDN (requires jquerry) -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- bootstrap css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- custom -->
+{{ range .Site.Params.custom_js }}
+  <script src="{{ . }}"></script>
+{{ end }}

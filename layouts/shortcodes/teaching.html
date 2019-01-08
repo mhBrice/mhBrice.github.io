@@ -1,0 +1,11 @@
+
+  <ul>
+    {{ range .Site.Data.teaching.teaching }}
+    <li class="pubs_li">
+
+      <span class="date">{{ .years }}</span>
+      <span style="color: #780F44"><b>{{ .description}}</b></span><br>
+      {{ .institute }} <br><br>
+    </li>
+    {{ end }}
+  </ul>

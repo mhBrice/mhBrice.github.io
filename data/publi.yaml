@@ -1,0 +1,132 @@
+---
+references:
+- id: Brice_2017
+  type: article-journal
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Pellerin
+    given: Stéphanie
+  - family: Poulin
+    given: Monique
+  editor:
+  - family: Pysek
+    given: Petr
+  issued:
+  - year: 2017
+    month: 4
+  title: Does urbanization lead to taxonomic and functional homogenization in riparian
+    forests?
+  container-title: Diversity and Distributions
+  publisher: Wiley-Blackwell
+  page: 828-840
+  volume: '23'
+  issue: '7'
+  URL: https://doi.org/10.1111%2Fddi.12565
+  DOI: 10.1111/ddi.12565
+
+- id: Delmas_2017
+  type: article-journal
+  author:
+  - family: Delmas
+    given: Eva
+  - family: Besson
+    given: Mathilde
+  - family: Brice
+    given: Marie-Helene
+  - family: Burkle
+    given: Laura
+  - family: Riva
+    given: Giulio V Dalla
+  - family: Fortin
+    given: Marie-Josee
+  - family: Gravel
+    given: Dominique
+  - family: Guimaraes
+    given: Paulo
+  - family: Hembry
+    given: David
+  - family: Newman
+    given: Erica
+  - family: Olesen
+    given: Jens M
+  - family: Pires
+    given: Matias
+  - family: Yeakel
+    given: Justin D
+  - family: Poisot
+    given: Timothee
+  issued:
+  - year: 2017
+    month: 2
+  title: Analyzing ecological networks of species interactions
+  publisher: Cold Spring Harbor Laboratory
+  URL: https://doi.org/10.1101%2F112540
+  DOI: 10.1101/112540
+
+- id: Brice_2016
+  type: article-journal
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Pellerin
+    given: Stéphanie
+  - family: Poulin
+    given: Monique
+  editor:
+  - family: Vandvik
+    given: Vigdis
+  issued:
+  - year: 2016
+    month: 6
+  title: Environmental filtering and spatial processes in urban riparian forests
+  container-title: Journal of Vegetation Science
+  publisher: Wiley-Blackwell
+  page: 1023-1035
+  volume: '27'
+  issue: '5'
+  URL: https://doi.org/10.1111%2Fjvs.12425
+  DOI: 10.1111/jvs.12425
+
+- id: Brice_2014
+  type: article-journal
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Bergeron
+    given: Alexandre
+  - family: Pellerin
+    given: Stéphanie
+  issued:
+  - year: 2014
+    month: 6
+  title: Liana distribution in response to urbanization in temperate forests
+  container-title: Écoscience
+  publisher: Informa UK Limited
+  page: 104-113
+  volume: '21'
+  issue: '2'
+  URL: https://doi.org/10.2980%2F21-2-3692
+  DOI: 10.2980/21-2-3692
+
+
+report:
+- title: "Tendances temporelles dans les populations de Ginseng à cinq folioles (Panax quinquefolius) de la Montérégie. Report for Nature Action Québec"
+  author:
+    - family: Brice
+      given: Marie-Hélène
+  year: 2018
+
+- title: "Impacts de l'urbanisation sur la diversité spécifique et fonctionnelle dans les forêts riveraines. Master thesis. Université de Montréal"
+  author:
+    - family: Brice
+      given: Marie-Hélène
+  year: 2015
+  link: "https://papyrus.bib.umontreal.ca/xmlui/handle/1866/13639"
+
+- title: "Comparaison de la biodiversité des plantes vasculaires des tourbières entre des régions laurentienne et boréale du Québec et le long d’un gradient bordure-centre. Undergraduate thesis. Université de Montréal"
+  author:
+    - family: Brice
+      given: Marie-Hélène
+  year: 2015
+---

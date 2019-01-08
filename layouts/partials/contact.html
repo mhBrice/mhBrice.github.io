@@ -1,0 +1,28 @@
+{{ if .Site.Params.skype }}
+<h3> <i class="fa fa-skype" aria-hidden="true"></i>&nbsp;
+  <a href = "skype:{{ .Site.Params.skype }}?call">
+    {{ .Site.Params.skype_name }}
+  </a>
+</h3>
+{{ end }}
+
+{{ if .Site.Params.phone }}
+<h3> <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+   {{ .Site.Params.phone }}
+</h3>
+{{ end }}
+
+{{ if .Site.Params.email }}
+<h3> <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;
+  <a href="mailto:{{ .Site.Params.email }}">
+   {{ .Site.Params.email }}
+ </a>
+</h3>
+{{ end }}
+
+{{ if .Site.Params.office_hours }}
+<h3> <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;
+   {{ .Site.Params.office_hours }}
+ </a>
+</h3>
+{{ end }}

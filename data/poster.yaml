@@ -1,0 +1,32 @@
+poster:
+  - title: "Long-term forest community changes in the boreal-temperate ecotone"
+    author:
+      - family: Brice
+        given: Marie-Hélène
+      - family: Legendre
+        given: Pierre
+      - family: Cazelles
+        given: Kevin
+      - family: Fortin
+        given: Marie-Josée
+    conference:
+      - name: "ESA Annual Meeting"
+        url: "https://esa.org/neworleans/"
+        date: 2018-08-01
+        where: "New-Orleans, LA, USA"
+    pdf: "/talks/posters/ESA_MH_2018.png"
+
+  - title: "Climbing towards the light: Liana distribution and diversity in urban ecosystems"
+    author:
+    - family: Brice
+      given: Marie-Hélène
+    - family: Bergeron
+      given: Alexandre
+    - family: Pellerin
+      given: Stéphanie
+    year: 2014
+    conference:
+        - name: "Partnerships for the Living City: Promoting Urban Biodiversity - A Partnership with the Secretariat of the Convention on Biological Diversity"
+          date: 2014-03-07
+          where: "Montréal, Qc"
+    pdf: "/talks/posters/liana_2014.pdf"

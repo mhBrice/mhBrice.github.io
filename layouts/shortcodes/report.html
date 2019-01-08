@@ -1,0 +1,42 @@
+<ol>
+  {{ $letk := "Marie-Hélène" | truncate 1 "." }}
+  {{ range .Site.Data.publi.report}}
+  <li class="pubs_li">
+    {{ $len := len .author }}
+    {{ $len2 := sub $len 1 }}
+    {{ range $i, $e := .author}}
+      {{ $let := .given | truncate 1 "." }}
+      {{ if (and (eq .family "Brice") (eq $let $letk)) }}
+        <b><span style="color: #780F44">
+          {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
+      {{ else }}
+        {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
+      {{ end }}
+    {{ end }}
+    ({{ .year }}).
+
+
+
+    <b>{{ .title }}</b>
+
+    {{ if .container }}
+      {{ .container }}.
+    {{ end }}
+
+    {{ if .volume }}
+      <em>{{ .volume }}</em> {{ if .issue }}({{ .issue }}){{ end }}
+    {{ end }}
+
+
+
+    {{ if .DOI }}
+      DOI: <a href="{{ .URL }}">{{ .DOI }}</a>
+    {{ end }}
+
+    {{ if .link }}
+      <a href="{{ .link }}">{{ .link }}</a>
+    {{ end }}
+
+  </li>
+  {{ end }}
+</ol>

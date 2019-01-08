@@ -1,0 +1,30 @@
+[[socionetws]]
+  icon = "envelope"
+  icon_pack = "fa"
+  link = "mailto:mariehbrice@outlook.com"
+
+# [[socionetws]]
+#   icon = "google-scholar"
+#   icon_pack = "ai"
+#   link =
+
+[[socionetws]]
+  icon = "researchgate-square"
+  icon_pack = "ai"
+  link = "https://www.researchgate.net/profile/Marie_Helene_Brice"
+
+# [[socionetws]]
+#   icon = "mendeley"
+#   icon_pack = "ai"
+#   link = ""
+
+[[socionetws]]
+  icon = "github"
+  icon_pack = "fa"
+  link = "//github.com/mhBrice"
+
+
+[[socionetws]]
+  icon = "orcid"
+  icon_pack = "ai"
+  link = "http://orcid.org/0000-0001-9505-1860"

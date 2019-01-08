@@ -1,0 +1,19 @@
+{{ define "leftside" }}
+
+<img src="{{ .Site.BaseURL }}/img/avatar.jpg" width=224px alt="avatar" class="avatar"></img>
+<br><br>
+
+{{ partial "socio" . }}
+<br>
+
+{{ end }}
+
+
+{{ define "main" }}
+
+<h1><i class="fa fa-{{ .Params.icon }}" aria-hidden="true"></i> {{ .Title }}</h1>
+<hr>
+
+{{ .Content }}
+
+{{ end }}

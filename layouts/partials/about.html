@@ -1,0 +1,126 @@
+<h1 class = "anchor">
+  <span id = "aboutme"></span>
+  <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+  About me
+</h1><hr>
+
+<div style="text-align:justify">
+  {{ .Content }}
+</div>
+
+<br><br>
+
+
+<h1 class = "anchor">
+  <span id = "background"></span>
+  <i class="fa fa-graduation-cap" aria-hidden="true"></i> Background
+</h1><hr>
+
+
+{{ range .Site.Data.educ.educs }}
+ <h4>
+  <span class="date">{{ .year }}</span>
+  <span class="large"><b>{{ .course}}</b></span><br>
+  {{ range .institution }}
+    <a href="{{ .url }}"> {{ .name }} </a>
+  {{ end }}
+ </h4>
+{{ end }}
+
+<br>
+<h4><span class="large"><b>Curriculum Vit&aelig; </b></span></h4>
+
+{{ range .Site.Data.educ.curriculum }}
+{{ .course }}
+ <h4>
+  &nbsp;&nbsp;<span class="date">{{ .lang }}</span>
+  <a href = "{{ .pdf }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+ </h4>
+{{ end }}
+
+<br><br>
+
+
+<!-- <h1 class = "anchor">
+  <span id = "skills"></span>
+  <i class="fa fa-gears" aria-hidden="true"></i> Skills
+</h1><hr>
+
+<p>For the sake of clarity I have grouped the computational tools I utilize under four categories. These categories are somewhat superficial from a practical standpoint as I use many of them inside R.
+For instance, even though I am able to code a standalone program in C++, I mainly call my C++ functions directly from R using <a href="http://www.rcpp.org/">Rcpp</a>.
+Also, although I am comfortable with Markdown and Pandoc, I often use <a href="https://rmarkdown.rstudio.com">R Markdown</a>. Similarly, I do most of my work with spatial data with R (see this <a href="https://insileco.github.io/2018/04/14/r-in-space---a-series/">post on inSileco</a>) but I occasionally use <a href="https://qgis.org/en/site/">QuantumGIS</a>.
+Finally, I&#39;d like to mention that I am currently working on Linux (Debian Testing) I used to work on MacOS and I have a little experience with several Linux distributions and Windows.</p>
+
+<h3> <i class="fa fa-bar-chart" aria-hidden="true"></i> Scientific computing</h3>
+
+Programing languages I use to perform numerical sinulations,
+data analysis, statstics and create figures. <br><br>
+
+{{ range .Site.Data.skills.sci_computing }}
+  {{ partial "progressbar" . }}
+{{ end }}
+
+<br>
+
+<h3> <i class="fa fa-database" aria-hidden="true"></i> Database management and data serialization</h3>
+
+On the top of the common spreasheet file formats, I use: <br><br>
+
+{{ range .Site.Data.skills.database }}
+  {{ partial "progressbar" . }}
+{{ end }}
+
+<br>
+
+<h3> <i class="fa fa-file-text-o" aria-hidden="true"></i> Document prepration</h3>
+
+To create and edit reports and manuscripts, I have to be well-equiped! <br><br>
+
+{{ range .Site.Data.skills.docprep }}
+  {{ partial "progressbar" . }}
+{{ end }}
+
+<br>
+
+<h3><i class="fa fa-globe" aria-hidden="true"></i> Web development</h3>
+
+I am not a web developer, yet I use different web laguages for blogging and retrieving on line data! <br><br>
+
+{{ range .Site.Data.skills.web }}
+  {{ partial "progressbar" . }}
+{{ end }}
+
+<br><br>
+
+
+
+<h1 class="anchor">
+  <span id = "media"></span>
+  <i class="fa fa-newspaper-o" aria-hidden="true"></i> Media
+</h1><hr>
+
+{{ range .Site.Data.press.articles }}
+  <h4>
+    <span class = "date"> {{ .year }}: </span>
+    <span class = "large"> {{ .media }} </span>
+    ({{ .lang }})
+    <a href="{{ .url }}">
+      <i class="fa fa-external-link" aria-hidden="true"></i>
+    </a>
+  </h4>
+{{ end }}
+
+<br><br> -->
+
+
+
+<h1 class="anchor">
+  <span id = "contact"></span>
+  <i class="fa fa-address-book-o" aria-hidden="true"></i> Contact
+</h1><hr>
+{{ partial "contact" . }}
+
+
+<!-- map Office -->
+<div id="map"></div>
+<script src = "/js/mapoffice.js"></script>
