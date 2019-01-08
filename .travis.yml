@@ -1,0 +1,33 @@
+# Found here http://schnuddelhuddel.de/deployment-of-a-hugo-site-on-github-pages/
+# and adjusted by my self
+dist: trusty
+sudo: required
+python:
+  - "2.7"
+
+branches:
+  only:
+    - dev
+    - master
+
+# Clean and don't fail
+install:
+  - sudo pip install pygments
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.deb -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
+  - rm -rf public || exit 0
+
+# Build the website
+script:
+  - pygmentize -V
+  - git submodule update --init --recursive
+  - hugo -v
+
+# Deploy to GitHub pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: public
+  target-branch: master
+  github_token: $GH_TOKEN # must be set in travis-ci.org dashboard and in GH repo.
+  on:
+    branch: dev
