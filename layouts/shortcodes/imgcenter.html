@@ -1,0 +1,8 @@
+<center>
+
+   {{ if .Get 1 }}
+     <img src="{{ .Get 0 }}" width="{{ .Get 1}}%"> 
+   {{ else }}
+     <img src="{{ .Get 0 }}">
+   {{ end }}'
+</center>
