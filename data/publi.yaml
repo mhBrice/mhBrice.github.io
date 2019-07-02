@@ -1,5 +1,26 @@
 ---
 references:
+- id: deschenes_long-term_2019
+  type: article-journal
+  author:
+  - family: Deschênes
+    given: Élise
+  - family: Brice
+    given: Marie-Hélène
+  - family: Brisson
+    given: Jacques
+  issued:
+  - year: 2019
+    month: 9
+  title: Long-Term Impact of a Major Ice Storm on Tree Mortality in an Old-Growth Forest
+  container-title: Forest Ecology and Management
+  publisher: Elsevier
+  page: 386-394
+  volume: '448'
+  issue: '2019'
+  URL: https://doi.org/10.1016/j.foreco.2019.06.018
+  DOI: 10.1016/j.foreco.2019.06.018
+
 - id: Brice_2017
   type: article-journal
   author:
