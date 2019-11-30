@@ -1,5 +1,71 @@
 ---
 references:
+- id: Cazelles_2019
+  type: article-journal
+  author:
+  - family: Cazelles
+    given: Kevin
+  - family: Bartley
+    given: Timothy
+  - family: Guzzo
+    given: Matthew M.
+  - family: Brice
+    given: Marie-Hélène
+  - family: MacDougall
+    given: Andrew S.
+  - family: Bennett
+    given: Joseph R.
+  - family: Esch
+    given: Ellen H.
+  - family: Kadoya
+    given: Taku
+  - family: Kelly
+    given: Jocelyn
+  - family: Matsuzaki
+    given: Shin-ichiro
+  - family: Nilsson
+    given: Karin A.
+  - family: McCann
+    given: Kevin S.
+  issued:
+  - year: 2019
+    month: 10
+  title: 'Homogenization of freshwater lakes: Recent compositional shifts in fish
+    communities are explained by gamefish movement and not climate change'
+  title-short: Homogenization of freshwater lakes
+  container: Global Change Biology
+  publisher: Wiley
+  URL: https://doi.org/10.1111%2Fgcb.14829
+  DOI: 10.1111/gcb.14829
+
+- id: Brice_2019
+  type: article-journal
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Cazelles
+    given: Kevin
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  editor:
+  - family: Boucher-Lalonde
+    given: Véronique
+  issued:
+  - year: 2019
+    month: 7
+  title: Disturbances amplify tree community responses to climate change in the temperateboreal
+    ecotone
+  container: Global Ecology and Biogeography
+  publisher: Wiley
+  page: 1668-1681
+  volume: '28'
+  issue: '11'
+  URL: https://doi.org/10.1111%2Fgeb.12971
+  DOI: 10.1111/geb.12971
+
+
 - id: deschenes_long-term_2019
   type: article-journal
   author:
