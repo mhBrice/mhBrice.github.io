@@ -1,4 +1,20 @@
 talk:
+  
+- title: Les perturbations modérées catalysent les transitions forestières dans l'écotone boréal-tempéré
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  year: 2019
+  conference:
+      - name: "Journée Modèle Québec - Ministère Forêts, Faune et Parcs"
+        url: "https://mffp.gouv.qc.ca/journee-modele-quebec-2019/"
+        date: 2019-10-30
+        where: "Québec, Qc"
+
 - title: Dynamique de transition des communautés forestières dans l'écotone boréal-tempéré
   author:
   - family: Brice
@@ -10,7 +26,7 @@ talk:
   year: 2018
   conference:
       - name: "Journée Modèle Québec - Ministère Forêts, Faune et Parcs"
-        url: "https://mffp.gouv.qc.ca/journee-modele-quebec/"
+        url: "https://mffp.gouv.qc.ca/journee-modele-quebec-2018/"
         date: 2018-11-01
         where: "Québec, Qc"
 

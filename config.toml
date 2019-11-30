@@ -82,7 +82,7 @@ defaultContentLanguageInSubdir = false
     url = "/publications/"
     weight = 3
 [[menu.main]]
-    name = "Talks & Posters"
+    name = "Communications"
     url = "/talks/"
     weight = 4
 [[menu.main]]

@@ -1,7 +1,7 @@
 ---
-title: Talks & Posters
+title: Communications
 icon: bullhorn
-layout: regular 
+layout: regular
 ---
 
 
