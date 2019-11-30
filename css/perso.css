@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway|Ubuntu);
+
+
+video {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+/* begin MH  */
+
+h1, h2 {
+  font-family: "Ubuntu" !important;
+  color: #404040 !important;
+}
+
+body{
+  font-family: "Raleway" !important;
+  font-size: 1.4em !important;
+  color: #404040 !important;
+}
+
+a {
+  color: #148592 !important;
+}
+
+/* end MH */
+
+
+.tags {
+  font-weight: 600;
+}
+.tags a:hover {
+    color: white;
+}
+
+.role {
+  text-align: center;
+  color: #444;
+}
+
+.title{
+  font-size: .9em !important;
+}
+
+.date {
+  color: #444;
+  font-size: 1.1em;
+}
+
+.pubs_li {
+  font-size: 1.05em;
+  padding-top: 10px;
+}
+
+.anchor {
+   position: relative;
+}
+
+.anchor span {
+   position: absolute;
+   top: -64px;
+}
+
+.mysticky {
+  display: block;
+  position: fixed;
+  top: 48px;
+}
+
+
+pre {
+    padding: 8px !important;
+    margin: 0 0 10px;
+    line-height: 1.42857143;
+    background-color: #272822 !important;
+    border: 2px solid #272822 !important;
+    border-radius: 6px !important;
+}
+
+kbd {
+    background-color: #272822 !important;
+}
+
+pre > code {
+    font-family: "Fira Code";
+}
+
+#map {
+  height: 350px;
+  width: 90%;
+  float: center;
+  display: inline-block;
+  background-color:black;
+  margin: 10px 10px 10px 10px;
+ }
+
+blockquote {
+  font-size: 1.05em !important;
+}

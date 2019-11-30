@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marie-Hélène Brice</title>
+    <link>https://mhBrice.github.io/</link>
+    <description>Recent content on Marie-Hélène Brice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Marie-Hélène Brice. </copyright>
+    
+	<atom:link href="https://mhBrice.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publications</title>
+      <link>https://mhBrice.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mhBrice.github.io/publications/</guid>
+      <description>Cazelles K., Bartley T., Guzzo M., Brice M., MacDougall A., Bennett J., Esch E., Kadoya T., Kelly J., Matsuzaki S., Nilsson K., McCann K. (2019). Homogenization of freshwater lakes: Recent compositional shifts in fish communities are explained by gamefish movement and not climate change Global Change Biology. DOI: 10.1111/gcb.14829  Brice M., Cazelles K., Legendre P., Fortin M. (2019). Disturbances amplify tree community responses to climate change in the temperateboreal ecotone Global Ecology and Biogeography.</description>
+    </item>
+    
+    <item>
+      <title>Research projects</title>
+      <link>https://mhBrice.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mhBrice.github.io/research/</guid>
+      <description>Current projects As temperatures increase, optimal climatic niches of many species are predicted to move northward by hundreds of kilometers beyond their current limits, and thus we might expect geographic range shifts. However, many non-climatic factors might vary along these climatic gradients, such as human-induced disturbances, interspecific competition and soil characteristics, with the potential to stop, slow down or accelerate potential range shifts.
+Much of my current research centers around understanding and disentangling the influence of these factors on forest community changes from 3 different points of view: (1) ß diversity and community composition, (2) community transition dynamics and (3) functional traits.</description>
+    </item>
+    
+  </channel>
+</rss>
