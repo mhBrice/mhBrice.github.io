@@ -1,0 +1,34 @@
+
+  <ul>
+    {{ range .Site.Data.workshop.workshop }}
+    <li class="pubs_li">
+      <!-- authors -->
+      {{ $letk := "Marie-Hélène" | truncate 1 "." }}
+      {{ $len := len .author }}
+      {{ $len2 := sub $len 1 }}
+      {{ range $i, $e := .author}}
+      {{ $let := .given | truncate 1 "." }}
+      {{ if (and (eq .family "Brice") (eq $let $letk)) }}
+      <b><span style="color: #780F44">
+        {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
+      {{ else }}
+      {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
+      {{ end }}
+      {{ end }}
+      <!-- END authors -->
+      <b> {{ .title }}. </b>
+      <!-- conf -->
+      {{ range .workshop }}
+      {{ .name }}. <span class="date">{{ .date }}</span>. {{ .where }}.
+      {{ end }}
+      <!-- END conf -->
+      <!-- external links -->
+      {{ if .url }}
+      <a href="{{ .url }}"><i class="fa fa-globe" aria-hidden="true"></i></a>
+      {{ end }}
+      <!-- END external links -->
+      <em>{{ .description }}.
+      </em>
+    </li>
+    {{ end }}
+  </ul>

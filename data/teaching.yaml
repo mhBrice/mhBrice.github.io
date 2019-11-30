@@ -1,15 +1,16 @@
 teaching:
-- years: 2018
-  time: 0.5 day
-  institute: Quebec Center for Biodiversity Science (QCBS)
-  job: Instructor
-  description: Advanced R course on geospatial analysis and map editing.
 
-- years: "2016–2018"
+- years: "2016–2019"
   time: 1 semester/year
   institute: Université de Montréal
   job: Teaching assistant
   description: "Forest ecology course."
+
+- years: "2013–2014, 2019"
+  time: 1 semester/year
+  institute: Université de Montréal
+  job: Teaching assistant
+  description: "Plant ecology course."
 
 - years: "2015–2017"
   time: 1 semester/year
@@ -17,13 +18,7 @@ teaching:
   job: Teaching assistant
   description: "Biostatistic 2."
 
-- years: "2015–2017"
-  time: 6h/year
-  institute: Université de Montréal & Université du Québec à Montréal. Quebec Center for Biodiversity Science (QCBS)
-  job: R workshop presenter
-  description: "Multivariate analysis and Advance multivariate analysis."
-
-- years: 2014
+- years: "2014"
   time: 1 semester/year
   institute: Université de Montréal
   job: Teaching assistant

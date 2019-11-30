@@ -1,7 +1,14 @@
 ---
 title: Teaching
 icon: "university"
-layout: regular 
+layout: regular
 ---
 
+## Courses
+
 {{< teaching >}}
+
+
+## Workshops
+
+{{< workshop >}}
