@@ -1,5 +1,16 @@
 workshop:
 
+- title: "Multivariate analysis and Advance multivariate analysis"
+  author:
+    - family:  Brice
+      given:   Marie-Hélène
+  workshop:
+    - name:    "QCBS R Workshop series"
+      where:   "Université de Montréal & Université du Québec à Montréal & Université du Québec à Rimouski"
+      date:    2015-2017, \linebreak 2020
+  url:        "https://wiki.qcbs.ca/r"
+  description: "Workshop instructor"
+
 - title: "Touchdown your research"
   author:
     - family: Vissault
@@ -29,7 +40,7 @@ workshop:
       date:    2019-03-26
   url:        "https://insileco.github.io/IntroR/#1"
   description: "Getting started with R"
-  
+
 - title: "Geospatial analyses & maps with R"
   author:
     - family:  Brice
@@ -37,17 +48,6 @@ workshop:
   workshop:
     - name:    "QCBS R Symposium"
       where:   "Saint-Hippolyte, QC, Canada"
-      date:    2019-10-12
+      date:    2018-05-10
   url:        "https://mhbrice.github.io/Rspatial/Rspatial_script.html"
   description: "Advanced R course on geospatial analysis and map editing"
-
-- title: "Multivariate analysis and Advance multivariate analysis"
-  author:
-    - family:  Brice
-      given:   Marie-Hélène
-  workshop:
-    - name:    "QCBS R Workshop series"
-      where:   "Université de Montréal & Université du Québec à Montréal, Montreal, QC, Canada"
-      date:    2015-2017
-  url:        "https://wiki.qcbs.ca/r"
-  description: "Workshop instructor"

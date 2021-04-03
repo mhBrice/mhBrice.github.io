@@ -1,5 +1,53 @@
 talk:
-  
+
+- title: "Comment les perturbations influencent-elles la réponse des forêts au changement climatique ?"
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  year: 2020
+  conference:
+      - name: "Midis de la foresterie"
+        date: 2020-11-24
+        where: "UQAT Abitibi-Témiscamingue, Qc"
+
+- title: "Dynamique spatio-temporelle des forêts dans l’écotone boréal-tempéré en réponse aux changements globaux"
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  year: 2020
+  conference:
+      - name: "Soutenance de thèse de doctorat"
+        date: 2020-09-08
+        where: "Montréal, Qc"
+
+- title: "Contraintes et moteurs des changements dans les forêts du Québec"
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  year: 2020
+  conference:
+      - name: "Rencontre à la Direction de la recherche forestière - MFFP"
+        date: 2020-02-10
+        where: "Québec, Qc"
+
+- title: "Moderate disturbances catalyse forest transitions in the temperate-boreal ecotone"
+  author:
+  - family: Brice
+    given: Marie-Hélène
+  - family: Legendre
+    given: Pierre
+  - family: Fortin
+    given: Marie-Josée
+  year: 2019
+  conference:
+      - name: "Symposium annuel du Centre de la Science de la Biodiversité du Québec"
+        date: 2019-12-19
+        where: "Montréal, Qc"  
+
 - title: Les perturbations modérées catalysent les transitions forestières dans l'écotone boréal-tempéré
   author:
   - family: Brice

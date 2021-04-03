@@ -1,6 +1,6 @@
 
 
-I am currently a PhD candidate in ecology co-advised by Pierre Legendre and Marie-Josée Fortin. I am passionate about community ecology, functional ecology, landscape ecology, and conservation, with a special affection for plants. My research is focused on how plant individuals, populations, and communities respond to environmental changes, including climate warming, forest management, and urbanization. I apply different numerical methods to assess taxonomic and functional changes in plant communities in space and time, as well as to evaluate the causes of these changes. I am motivated by a strong desire to translate my research into knowledge for conservation and policy.
+I am passionate about community ecology, functional ecology, landscape ecology, and conservation, with a special affection for plants. My research is focused on how plant individuals, populations, and communities respond to environmental changes, including climate warming, forest management, and urbanization. I apply different numerical methods to assess taxonomic and functional changes in plant communities in space and time, as well as to evaluate the causes of these changes. I am motivated by a strong desire to translate my research into knowledge for conservation and policy.
 
 
 

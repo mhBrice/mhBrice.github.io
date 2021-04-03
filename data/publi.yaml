@@ -1,5 +1,91 @@
 ---
 references:
+- author:
+    - family: Kirk
+      given: David
+    - family: Brice
+      given: Marie-Hélène
+    - family: Bradstreet
+      given: Michael
+  container-title: Ecology and Evolution
+  DOI: https://doi.org/10.1002/ece3.6913
+  ISSN: 2045-7758
+  issue: 1
+  issued:
+    - year: 2021
+  language: en
+  source: Wiley Online Library
+  title: "Changes in beta diversity and species functional traits differ between saplings and mature trees in an old growth forest."
+  type: article-journal
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.6913'
+  volume: 11
+  page: 58-88
+
+
+- id: brice_moderate_2020
+  author:
+    - family: Brice
+      given: Marie-Hélène
+    - family: Vissault
+      given: Steve
+    - family: Vieira
+      given: Willian
+    - family: Gravel
+      given: Dominique
+    - family: Legendre
+      given: Pierre
+    - family: Fortin
+      given: Marie-Josée
+  container-title: Global Change Biology
+  DOI: 10.1111/gcb.15143
+  ISSN: 1365-2486
+  issue: 8
+  issued:
+    - year: 2020
+  language: en
+  source: Wiley Online Library
+  title: >-
+    Moderate disturbances accelerate forest transition dynamics under climate
+    change in the temperate-boreal ecotone of eastern North America.
+  type: article-journal
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15143'
+  volume: 26
+  page: 4418-4435
+
+- id: pinceloup_vegetation_2020
+  accessed:
+    - year: 2020
+      month: 2
+      day: 21
+  author:
+    - family: Pinceloup
+      given: Nicolas
+    - family: Poulin
+      given: Monique
+    - family: Brice
+      given: Marie-Hélène
+    - family: Pellerin
+      given: Stéphanie
+  container-title: PLOS ONE
+  container-title-short: PLoS ONE
+  DOI: 10.1371/journal.pone.0229146
+  editor:
+    - family: Zang
+      given: RunGuo
+  ISSN: 1932-6203
+  issue: '2'
+  issued:
+    - year: 2020
+      month: 2
+      day: 13
+  language: en
+  page: e0229146
+  source: DOI.org (Crossref)
+  title: Vegetation changes in temperate ombrotrophic peatlands over a 35 year period.
+  type: article-journal
+  URL: 'https://dx.plos.org/10.1371/journal.pone.0229146'
+  volume: '15'
+
 - id: Cazelles_2019
   type: article-journal
   author:
@@ -31,10 +117,13 @@ references:
   - year: 2019
     month: 10
   title: 'Homogenization of freshwater lakes: Recent compositional shifts in fish
-    communities are explained by gamefish movement and not climate change'
+    communities are explained by gamefish movement and not climate change.'
   title-short: Homogenization of freshwater lakes
-  container: Global Change Biology
+  container-title: Global Change Biology
   publisher: Wiley
+  page: 4222-4233
+  volume: '25'
+  issue: '12'
   URL: https://doi.org/10.1111%2Fgcb.14829
   DOI: 10.1111/gcb.14829
 
@@ -55,16 +144,14 @@ references:
   issued:
   - year: 2019
     month: 7
-  title: Disturbances amplify tree community responses to climate change in the temperateboreal
-    ecotone
-  container: Global Ecology and Biogeography
+  title: Disturbances amplify tree community responses to climate change in the temperate-boreal ecotone.
+  container-title: Global Ecology and Biogeography
   publisher: Wiley
   page: 1668-1681
   volume: '28'
   issue: '11'
   URL: https://doi.org/10.1111%2Fgeb.12971
   DOI: 10.1111/geb.12971
-
 
 - id: deschenes_long-term_2019
   type: article-journal
@@ -78,7 +165,7 @@ references:
   issued:
   - year: 2019
     month: 9
-  title: Long-Term Impact of a Major Ice Storm on Tree Mortality in an Old-Growth Forest
+  title: Long-Term Impact of a Major Ice Storm on Tree Mortality in an Old-Growth Forest.
   container-title: Forest Ecology and Management
   publisher: Elsevier
   page: 386-394
@@ -86,31 +173,6 @@ references:
   issue: '2019'
   URL: https://doi.org/10.1016/j.foreco.2019.06.018
   DOI: 10.1016/j.foreco.2019.06.018
-
-- id: Brice_2017
-  type: article-journal
-  author:
-  - family: Brice
-    given: Marie-Hélène
-  - family: Pellerin
-    given: Stéphanie
-  - family: Poulin
-    given: Monique
-  editor:
-  - family: Pysek
-    given: Petr
-  issued:
-  - year: 2017
-    month: 4
-  title: Does urbanization lead to taxonomic and functional homogenization in riparian
-    forests?
-  container-title: Diversity and Distributions
-  publisher: Wiley-Blackwell
-  page: 828-840
-  volume: '23'
-  issue: '7'
-  URL: https://doi.org/10.1111%2Fddi.12565
-  DOI: 10.1111/ddi.12565
 
 - id: delmas_analysing_2018
   type: article-journal
@@ -148,58 +210,86 @@ references:
       month: 6
       day: 20
   title: "Analysing ecological networks of species interactions: Analyzing ecological
-    networks"
+    networks."
   container-title: Biological Reviews
+  page: 16-36
+  volume: '94'
+  issue: '1'
   URL: 'http://doi.wiley.com/10.1111/brv.12433'
   DOI: 10.1111/brv.12433
 
-- id: Brice_2016
+
+- id: brice_does_2017
   type: article-journal
   author:
-  - family: Brice
-    given: Marie-Hélène
-  - family: Pellerin
-    given: Stéphanie
-  - family: Poulin
-    given: Monique
-  editor:
-  - family: Vandvik
-    given: Vigdis
+    - family: Brice
+      given: Marie-Hélène
+    - family: Pellerin
+      given: Stéphanie
+    - family: Poulin
+      given: Monique
+  page: 828-840
+  volume: '23'
+  issue: '7'
   issued:
-  - year: 2016
-    month: 6
-  title: Environmental filtering and spatial processes in urban riparian forests
-  container-title: Journal of Vegetation Science
-  publisher: Wiley-Blackwell
+    - year: 2017
+      month: 7
+  title: "Does urbanization lead to taxonomic and functional homogenization in
+    riparian forests?"
+  container-title: Diversity and Distributions
+  URL: 'http://doi.wiley.com/10.1111/ddi.12565'
+  DOI: 10.1111/ddi.12565
+
+- id: brice_environmental_2016
+  type: article-journal
+  author:
+    - family: Brice
+      given: Marie-Hélène
+    - family: Pellerin
+      given: Stéphanie
+    - family: Poulin
+      given: Monique
   page: 1023-1035
   volume: '27'
   issue: '5'
-  URL: https://doi.org/10.1111%2Fjvs.12425
+  issued:
+    - year: 2016
+      month: 9
+  title: "Environmental filtering and spatial processes in urban riparian forests."
+  container-title: Journal of Vegetation Science
+  URL: 'http://doi.wiley.com/10.1111/jvs.12425'
   DOI: 10.1111/jvs.12425
 
-- id: Brice_2014
+- id: brice_liana_2014
   type: article-journal
   author:
-  - family: Brice
-    given: Marie-Hélène
-  - family: Bergeron
-    given: Alexandre
-  - family: Pellerin
-    given: Stéphanie
+    - family: Brice
+      given: Marie-Hélène
+    - family: Bergeron
+      given: Alexandre
+    - family: Pellerin
+      given: Stéphanie
   issued:
-  - year: 2014
-    month: 6
-  title: Liana distribution in response to urbanization in temperate forests
-  container-title: Écoscience
-  publisher: Informa UK Limited
+    - year: 2014
+      month: 6
   page: 104-113
   volume: '21'
   issue: '2'
-  URL: https://doi.org/10.2980%2F21-2-3692
+  title: "Liana distribution in response to urbanization in temperate forests."
+  container-title: Écoscience
+  URL: 'https://www.tandfonline.com/doi/full/10.2980/21-2-3692'
   DOI: 10.2980/21-2-3692
 
 
+
 report:
+- title: "Dynamique spatio-temporelle des forêts dans l'écotone boréal-tempéré en réponse aux changements globaux. Thèse de doctorat. Université de Montréal"
+  author:
+    - family: Brice
+      given: Marie-Hélène
+  year: 2020
+  url: "http://hdl.handle.net/1866/24831"
+
 - title: "Tendances temporelles dans les populations de Ginseng à cinq folioles (Panax quinquefolius) de la Montérégie. Report for Nature Action Québec"
   author:
     - family: Brice
