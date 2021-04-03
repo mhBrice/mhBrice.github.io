@@ -1,0 +1,42 @@
+{{ partial "header" . }}
+
+<img class="full-width" width="100%"; src="/img/IMG_bg.JPG"></img>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-sm-3">
+        <img src="img/avatar.jpg" width=224px alt="avatar" class="avatar"></img>
+        <br><br>
+
+        {{ partial "socio" . }}
+        <br>
+
+      </div>
+
+      <div class="col-sm-8">
+      {{ partial "about" . }}
+
+      </div>
+
+      <!-- <div class="col-sm-1">
+        <div class="hidden-sm hidden-xs">
+          <div class="mysticky">
+            {{ range .Site.Data.navhome.menu }}
+            <h1 title="{{ .title }}">
+              &nbsp;&nbsp;
+              <a href="#{{ .anchor }}">
+               <i class="fa fa-{{ .icon }}" aria-hidden="true"></i>
+             </a>
+            </h1>
+            {{ end }}
+          </div>
+        </div>
+      </div> -->
+
+
+
+  </div>
+
+{{ partial "footer" . }}
