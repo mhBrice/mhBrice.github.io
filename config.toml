@@ -1,14 +1,14 @@
 baseurl = "https://mhBrice.github.io/"
 relativeurls = true
-languageCode = "en-us"
 title = "Marie-Hélène Brice"
-copyright = "&copy; 2018 Marie-Hélène Brice. "
-theme = "hugo-KevCaz"
+copyright = "2018-2021 Marie-Hélène Brice. "
+theme = "ananke"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
+enableRobotsTXT = true
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -16,13 +16,86 @@ defaultContentLanguageInSubdir = false
 
 [blackfriday]
   hrefTargetBlank = true
+  
+# Navigation Links
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+  
+[languages]
+  [languages.en]
+    languageCode = "en-us"
+    title = "Marie-Hélène Brice's website (construction)"
+    weight = 1
+    contentDir = "content/en"
+    [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[languages.en.menu.main]]
+        name = "Research"
+        url = "/research/"
+        weight = 2
+    [[languages.en.menu.main]]
+        name = "Publications"
+        url = "/publications/"
+        weight = 3
+    [[languages.en.menu.main]]
+        name = "Communications"
+        url = "/talks/"
+        weight = 4
+    [[languages.en.menu.main]]
+        name = "Teaching"
+        url = "/teaching/"
+        weight = 5
+    [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 6
+  [languages.fr]
+    title = "Marie-Hélène Brice (en construction)"
+    weight = 2
+    contentDir = "content/fr"
+    [[languages.fr.menu.main]]
+        name = "Accueil"
+        url = "/"
+        weight = 1
+    [[languages.fr.menu.main]]
+        name = "Recherche"
+        url = "/research/"
+        weight = 2
+    [[languages.fr.menu.main]]
+        name = "Publications"
+        url = "/publications/"
+        weight = 3
+    [[languages.fr.menu.main]]
+        name = "Communications"
+        url = "/talks/"
+        weight = 4
+    [[languages.fr.menu.main]]
+        name = "Enseignement"
+        url = "/teaching/"
+        weight = 5
+    [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 6
+
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
   name = "Marie-Hélène Brice"
   role = "PhD candidate in ecology"
   organization = "Département de sciences biologiques, Université de Montréal"
   organization_url = "https://bio.umontreal.ca/nc/accueil/"
-  avatar = "IMG_mhb.JPG"
   twitter = "mariehbrice"
   github = "mhBrice"
   address = "Département de sciences biologiques, Pavillon Marie-Victorin, Université de Montréal, Montréal, H2V 2S9"
@@ -64,61 +137,8 @@ defaultContentLanguageInSubdir = false
 # font = ["Changa One"]
 
 
-# Navigation Links
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "Research"
-    url = "/research/"
-    weight = 2
-[[menu.main]]
-    name = "Publications"
-    url = "/publications/"
-    weight = 3
-[[menu.main]]
-    name = "Communications"
-    url = "/talks/"
-    weight = 4
-[[menu.main]]
-    name = "Teaching"
-    url = "/teaching/"
-    weight = 5
-# [[menu.main]]
-#     name = "Software"
-#     url = "/software/"
-#     weight = 5
-# [[menu.main]]
-#     name = "Notes"
-#     url = "/notes/"
-#     weight = 6
-[[menu.main]]
-    name = "Blog"
-    url = "https://insileco.github.io/"
-    weight = 7
-# [[menu.main]]
-#     name = "Perso"
-#     url = "/perso/"
-#     weight = 8
-
-# icon (font-awesome)
-[[menu.icon]]
-    name = "github"
-    url = "https://www.github.com/mhBrice"
-
 
 # Taxonomies.
 [taxonomies]
   tag = "tags"
   # category = "categories"
-
-# Languages
-# Create a [languages.X] block for each language you want, where X is the language ID.
-# Configure the English version of the website.
-[languages.en]
-  languageCode = "en-us"
