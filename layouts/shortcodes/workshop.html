@@ -10,7 +10,7 @@
       {{ $let := .given | truncate 1 "." }}
       {{ if (and (eq .family "Brice") (eq $let $letk)) }}
       <b><span style="color: #780F44">
-        {{ .family }} {{ $let }}</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
+        {{ .family }} M.-H.</span></b>{{ if eq $len2 $i }}.{{ else }},{{ end }}
       {{ else }}
       {{ .family }} {{ $let }}{{ if eq $len2 $i }}{{ else }},{{ end }}
       {{ end }}
