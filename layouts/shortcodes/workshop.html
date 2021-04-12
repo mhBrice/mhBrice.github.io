@@ -1,6 +1,13 @@
+{{ $lang := .Get 0 }}
+{{ $work := .Site.Data.workshop.en }}
+{{ if eq $lang "fr" }}
+  {{ $work = .Site.Data.workshop.fr }}
+{{ else }}
+  {{ $work = .Site.Data.workshop.en }}
+{{ end }}
 
-  <ul>
-    {{ range .Site.Data.workshop.workshop }}
+<ul>
+  {{ range $work }}
     <li class="pubs_li">
       <!-- authors -->
       {{ $letk := "Marie-Hélène" | truncate 1 "." }}
@@ -16,7 +23,7 @@
       {{ end }}
       {{ end }}
       <!-- END authors -->
-      <b> {{ .title }}. </b>
+      <b> {{ .title }}. </b><br>
       <!-- conf -->
       {{ range .workshop }}
       {{ .name }}. <span class="date">{{ .date }}</span>. {{ .where }}.
@@ -25,10 +32,9 @@
       <!-- external links -->
       {{ if .url }}
       <a href="{{ .url }}"><i class="fa fa-globe" aria-hidden="true"></i></a>
-      {{ end }}
+      {{ end }}<br>
       <!-- END external links -->
-      <em>{{ .description }}.
-      </em>
+      {{ .description }}.
     </li>
     {{ end }}
   </ul>

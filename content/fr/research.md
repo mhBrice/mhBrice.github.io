@@ -1,7 +1,7 @@
 ---
 title: Thèmes de recherche
 icon: puzzle-piece
-layout: regular
+featured_image: '/img/IMG_4395.JPG'
 ---
 
 # L'écologie à l'ère de l'Anthropocène

@@ -1,0 +1,108 @@
+fr:
+
+- title: "Analyses multivariées et Analyses multivariées avancées"
+  author:
+    - family:  Brice
+      given:   Marie-Hélène
+  workshop:
+    - name:    "Série d'ateliers R du CSBQ"
+      where:   "Université de Montréal, Université du Québec à Montréal et Université du Québec à Rimouski"
+      date:    2015–2017, 2020
+  url:        "https://wiki.qcbs.ca/r"
+  description: "Instructrice"
+
+- title: "Touchdown your research"
+  author:
+    - family: Vissault
+      given: Steve
+    - family:  Brice
+      given:   Marie-Hélène
+    - family:  Beauchesne
+      given:   David
+    - family:  Cazelles
+      given:   Kevin
+  workshop:
+    - name:    "Symposium R, Centre de la Science de la Biodiversité du Québec"
+      where:   "Mont-Saint-Hilaire, QC, Canada"
+      date:    2019-10-12
+  url:        "https://insileco.github.io/ResearchDown/"
+  description: "Introduction à l'univers Rmarkdown"
+
+- title: "Introduction to R"
+  author:
+    - family:  Brice
+      given:   Marie-Hélène
+    - family:  Cazelles
+      given:   Kevin
+  workshop:
+    - name:    "Geotop"
+      where:   "Université du Québec à Montréal, QC, Canada"
+      date:    2019-03-26
+  url:        "https://insileco.github.io/IntroR/#1"
+  description: "Introduction à la manipulation, la visualisation et la cartographie en R"
+
+- title: "Geospatial analyses & maps with R"
+  author:
+    - family:  Brice
+      given:   Marie-Hélène
+  workshop:
+    - name:    "Symposium R, Centre de la Science de la Biodiversité du Québec"
+      where:   "Saint-Hippolyte, QC, Canada"
+      date:    2018-05-10
+  url:        "https://mhbrice.github.io/Rspatial/Rspatial_script.html"
+  description: "Cours avancé de R sur l'analyse géospatiale et l'édition de cartes"
+
+
+en:
+
+- title: "Multivariate analysis and Advance multivariate analysis"
+  author:
+    - family:  Brice
+      given:   Marie-Hélène
+  workshop:
+    - name:    "QCBS R Workshop series"
+      where:   "Université de Montréal & Université du Québec à Montréal & Université du Québec à Rimouski"
+      date:    2015-2017, 2020
+  url:        "https://wiki.qcbs.ca/r"
+  description: "Workshop instructor"
+
+- title: "Touchdown your research"
+  author:
+    - family: Vissault
+      given: Steve
+    - family:  Brice
+      given:   Marie-Hélène
+    - family:  Beauchesne
+      given:   David
+    - family:  Cazelles
+      given:   Kevin
+  workshop:
+    - name:    "QCBS R Symposium"
+      where:   "Mont-Saint-Hilaire, QC, Canada"
+      date:    2019-10-12
+  url:        "https://insileco.github.io/ResearchDown/"
+  description: "Introduction to the Rmarkdown universe"
+
+- title: "Introduction to R"
+  author:
+    - family:  Brice
+      given:   Marie-Hélène
+    - family:  Cazelles
+      given:   Kevin
+  workshop:
+    - name:    "Geotop"
+      where:   "Université du Québec à Montréal, QC, Canada"
+      date:    2019-03-26
+  url:        "https://insileco.github.io/IntroR/#1"
+  description: "Getting started with R"
+
+- title: "Geospatial analyses & maps with R"
+  author:
+    - family:  Brice
+      given:   Marie-Hélène
+  workshop:
+    - name:    "QCBS R Symposium"
+      where:   "Saint-Hippolyte, QC, Canada"
+      date:    2018-05-10
+  url:        "https://mhbrice.github.io/Rspatial/Rspatial_script.html"
+  description: "Advanced R course on geospatial analysis and map editing"

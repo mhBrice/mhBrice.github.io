@@ -1,3 +1,8 @@
+---
+title: "Forest ecology lab"
+featured_image: '/img/IMG_2562.JPG'
+description: "Botanical Garden of Montreal"
+---
 
 <!--I am a researcher at the Botanical Garden of Montréal and an associate-professor at Université de Montréal.
 

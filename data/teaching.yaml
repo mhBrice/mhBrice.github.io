@@ -1,25 +1,43 @@
-teaching:
+fr:
+
+- years: 2013–2014, 2019-2020
+  institute: Université de Montréal
+  course: "Stage d'écologie végétale – BIO3753"
+  description: Auxiliaire d'enseignement. Méthodes d'échantillonnage en écologie végétale et analyse statistique des données de communautés végétales.
 
 - years: "2016–2019"
-  time: 1 semester/year
   institute: Université de Montréal
-  job: Teaching assistant
-  description: "Forest ecology course."
-
-- years: "2013–2014, 2019"
-  time: 1 semester/year
-  institute: Université de Montréal
-  job: Teaching assistant
-  description: "Plant ecology course."
+  course: "Stage d'écologie forestière – BIO2703"
+  description: Auxiliaire d'enseignement. Excursions organisées dans différentes régions du Québec méridional. Identification et écologie des espèces d'arbres et des principales communautés forestières du Québec.
 
 - years: "2015–2017"
-  time: 1 semester/year
   institute: Université de Montréal
-  job: Teaching assistant
-  description: "Biostatistic 2."
+  course: "Biostatistique 2 – BIO2042"
+  description: Auxiliaire d'enseignement. Méthodes avancées d'analyses des données biologiques univariées et multivariées.
 
-- years: "2014"
-  time: 1 semester/year
+- years: 2014
   institute: Université de Montréal
-  job: Teaching assistant
-  description: "Biostatistic 1."
+  course: "Biostatistique 1 – BIO2041"
+  description: Auxiliaire d'enseignement. Plan d'échantillonnage, bases des analyses statistiques en biologie et introduction à R.
+
+en:
+
+- years: 2013–2014, 2019-2020
+  institute: Université de Montréal
+  course: "Plant ecology course – BIO3753"
+  description: Teaching assistant. Sampling methods in plant ecology and statistical analysis of plant community data.
+
+- years: "2016–2019"
+  institute: Université de Montréal
+  course: "Forest ecology course – BIO2703"
+  description: Teaching assistant. Organized excursions in different regions of southern Quebec. Identification of tree species and ecology of forest communities.
+
+- years: "2015–2017"
+  institute: Université de Montréal
+  course: "Biostatistics 2 – BIO2042"
+  description: Teaching assistant. Advanced methods of analysis of univariate and multivariate biological data.
+
+- years: 2014
+  institute: Université de Montréal
+  course: "Biostatistics 1 – BIO2041"
+  description: Teaching assistant. Sampling plan, basics of statistical analyses in biology and introduction to R.

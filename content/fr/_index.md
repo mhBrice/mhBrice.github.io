@@ -1,3 +1,8 @@
+---
+title: "Labo d'écologie forestière"
+featured_image: '/img/IMG_2562.JPG'
+description: "Jardin botanique de Montréal"
+---
 
 <!--Je suis chercheuse-botaniste au Jardin Botanique de Montréal et professeure associée à l'université de Montréal.
 

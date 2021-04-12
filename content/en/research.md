@@ -1,8 +1,8 @@
 ---
-title: Research projects
-icon: puzzle-piece
-layout: regular
+title: Research themes
+featured_image: '/img/IMG_4395.JPG'
 ---
+
 
 # Ecology in the Anthropocene
 

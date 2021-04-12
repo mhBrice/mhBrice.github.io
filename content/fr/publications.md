@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 layout: regular
+featured_image: "/img/DSCN4134.JPG"
 ---
 
 # Articles
