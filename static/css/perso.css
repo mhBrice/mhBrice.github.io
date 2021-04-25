@@ -21,9 +21,13 @@ body{
   color: #404040 !important;
 }
 
-a {
-  color: #148592 !important;
+nav a:hover {
+  color: #6cc644 !important;
 }
+
+/* a {
+  color: #148592 !important;
+} */
 
 /* end MH */
 
@@ -98,4 +102,12 @@ pre > code {
 
 blockquote {
   font-size: 1.05em !important;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

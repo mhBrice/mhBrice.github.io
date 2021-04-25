@@ -21,11 +21,13 @@ defaultContentLanguageInSubdir = false
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
+[markup.goldmark.renderer]
+    unsafe= true
   
 [languages]
   [languages.en]
     languageCode = "en-us"
-    title = "Marie-Hélène Brice's website (construction)"
+    title = ":deciduous_tree:"
     weight = 1
     contentDir = "content/en"
     [[languages.en.menu.main]]
@@ -53,7 +55,7 @@ defaultContentLanguageInSubdir = false
         url = "/contact/"
         weight = 6
   [languages.fr]
-    title = "Marie-Hélène Brice (en construction)"
+    title = ":evergreen_tree:"
     weight = 2
     contentDir = "content/fr"
     [[languages.fr.menu.main]]
@@ -76,7 +78,7 @@ defaultContentLanguageInSubdir = false
         name = "Enseignement"
         url = "/teaching/"
         weight = 5
-    [[languages.en.menu.main]]
+    [[languages.fr.menu.main]]
         name = "Contact"
         url = "/contact/"
         weight = 6
@@ -96,8 +98,8 @@ defaultContentLanguageInSubdir = false
   role = "PhD candidate in ecology"
   organization = "Département de sciences biologiques, Université de Montréal"
   organization_url = "https://bio.umontreal.ca/nc/accueil/"
-  twitter = "mariehbrice"
-  github = "mhBrice"
+  # twitter = "mariehbrice"
+  github = "https://github.com/mhbrice"
   address = "Département de sciences biologiques, Pavillon Marie-Victorin, Université de Montréal, Montréal, H2V 2S9"
   #office_hours = "Send me an email for setting an appointment."
   email = "marie-helene.brice@umontreal.ca"
