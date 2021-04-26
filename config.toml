@@ -11,19 +11,19 @@ googleAnalytics = ""
 enableRobotsTXT = true
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
+defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = false
 
 [blackfriday]
   hrefTargetBlank = true
-  
+
 # Navigation Links
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
 [markup.goldmark.renderer]
     unsafe= true
-  
+
 [languages]
   [languages.en]
     languageCode = "en-us"
