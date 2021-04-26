@@ -10,16 +10,11 @@ video {
 
 /* begin MH  */
 
-h1, h2 {
-  font-family: "Ubuntu" !important;
-  color: #404040 !important;
-}
-
 body{
   font-family: "Raleway" !important;
-  font-size: 1.4em !important;
-  color: #404040 !important;
 }
+
+
 
 nav a:hover {
   color: #6cc644 !important;
@@ -30,6 +25,10 @@ nav a:hover {
 } */
 
 /* end MH */
+
+.f-subheadline-l {
+  font-size: 2.5rem !important;
+}
 
 
 .tags {
