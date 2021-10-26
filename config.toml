@@ -51,8 +51,8 @@ defaultContentLanguageInSubdir = false
         url = "/teaching/"
         weight = 5
     [[languages.en.menu.main]]
-        name = "Contact"
-        url = "/contact/"
+        name = "Join the team"
+        url = "/join/"
         weight = 6
   [languages.fr]
     title = ":evergreen_tree:"
@@ -79,8 +79,8 @@ defaultContentLanguageInSubdir = false
         url = "/teaching/"
         weight = 5
     [[languages.fr.menu.main]]
-        name = "Contact"
-        url = "/contact/"
+        name = "Rejoindre l'équipe"
+        url = "/join/"
         weight = 6
 
 

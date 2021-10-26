@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway|Ubuntu);
+@import url(https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap);
 
 
 video {
@@ -14,6 +15,10 @@ body{
   font-family: "Raleway" !important;
 }
 
+h2 {
+  color: green;
+  font-family: 'Arimo', sans-serif;
+}
 
 
 nav a:hover {

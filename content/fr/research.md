@@ -17,7 +17,10 @@ communautés et les écosystèmes. Nous étudions ces changements de la biodiver
 dans l'espace et dans le temps, particulièrement dans les forêts du Québec
 méridional et dans les forêts urbaines de Montréal.
 
+---
 ## Changements à long terme dans les communautés
+
+<img src="/img/temporal_change.png" style="float:right;width:300px;margin:5px 15px 5px 15px;">
 
 En l'absence de perturbations de type *pulse*, la réponse des écosystèmes
 forestiers aux modifications dans les conditions environnementales est régulée
@@ -31,7 +34,11 @@ de biodiversité, de quantifier comment de multiples facteurs environnementaux
 affectent les différentes composantes de la biodiversité et de détecter la
 détérioration des écosystèmes et des services écosystémiques.
 
+---
 ## Dynamique forestière après perturbations
+
+
+<img src="/img/aerial_view_log.PNG" style="float:left;width:285px;margin:5px 15px 5px 15px;">
 
 Feux, épidémies d'insectes, chablis, inondations sont des événements qui
 s'inscrivent dans la dynamique naturelle des forêts et permettent leur
@@ -44,8 +51,11 @@ et mortalité). Comprendre la différence entre les effets des perturbations
 naturelles et anthropiques sur la dynamique forestière est nécessaire pour
 améliorer les pratiques sylvicoles et pour prédire la dynamique du futur.
 
-
+---
 ## Urbanisation
+
+
+<img src="/img/riparian.JPG" style="float:right;width:300px;margin:5px 15px 5px 15px;">
 
 À mesure que la population mondiale augmente et s'urbanise et que le climat se
 dérègle, les espaces verts dans les villes sont à la fois de plus en plus

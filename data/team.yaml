@@ -1,0 +1,29 @@
+members:
+
+- given_name: Marie-Hélène
+  family_name: Brice
+  role: Chercheuse principale
+  alumni: false
+  pic: "/img/mhb1.JPG"
+  description: "Je suis chercheuse-botaniste au Jardin Botanique de Montréal, professeure associée à l'Université de Montréal et membre de l'Institut de recherche en biologie végétale. En dehors du travail, je continue de regarder les plantes et de me promener en forêt!"
+  github: mhBrice
+  researchgate: Marie_Helene_Brice
+  website: https://mhbrice.github.io/
+  orcid: 0000-0001-9505-1860
+  gscholar: GCSsqVoAAAAJ&hl
+  phone: +1 514 872 XXXX
+  email: marie-helene.brice@umontreal.ca
+
+- given_name: Chloé
+  family_name: Leblanc-Gagné
+  role: Étudiante MSc
+  alumni: false
+  pic:
+  description:
+
+- given_name: Dominique
+  family_name: Havel
+  role: Stagiaire MSc
+  alumni: false
+  pic:
+  description:
