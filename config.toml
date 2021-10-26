@@ -32,29 +32,34 @@ defaultContentLanguageInSubdir = false
     contentDir = "content/en"
     [[languages.en.menu.main]]
         name = "Home"
-        url = "/"
+        url = "/en/"
         weight = 1
     [[languages.en.menu.main]]
         name = "Research"
-        url = "/research/"
+        url = "/en/research/"
         weight = 2
     [[languages.en.menu.main]]
-        name = "Publications"
-        url = "/publications/"
+        name = "Members"
+        url = "/en/team/"
         weight = 3
     [[languages.en.menu.main]]
-        name = "Communications"
-        url = "/talks/"
+        name = "Publications"
+        url = "/en/publications/"
         weight = 4
     [[languages.en.menu.main]]
-        name = "Teaching"
-        url = "/teaching/"
+        name = "Communications"
+        url = "/en/talks/"
         weight = 5
     [[languages.en.menu.main]]
-        name = "Join the team"
-        url = "/join/"
+        name = "Teaching"
+        url = "/en/teaching/"
         weight = 6
+    [[languages.en.menu.main]]
+        name = "Join the team"
+        url = "/en/join/"
+        weight = 7
   [languages.fr]
+    languageCode = "fr-ca"
     title = ":evergreen_tree:"
     weight = 2
     contentDir = "content/fr"
@@ -67,21 +72,25 @@ defaultContentLanguageInSubdir = false
         url = "/research/"
         weight = 2
     [[languages.fr.menu.main]]
+        name = "Membres"
+        url = "/team/"
+        weight = 3
+    [[languages.fr.menu.main]]
         name = "Publications"
         url = "/publications/"
-        weight = 3
+        weight = 4
     [[languages.fr.menu.main]]
         name = "Communications"
         url = "/talks/"
-        weight = 4
+        weight = 5
     [[languages.fr.menu.main]]
         name = "Enseignement"
         url = "/teaching/"
-        weight = 5
+        weight = 6
     [[languages.fr.menu.main]]
         name = "Rejoindre l'équipe"
         url = "/join/"
-        weight = 6
+        weight = 7
 
 
 [sitemap]
