@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway|Ubuntu);
+@import url(https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap);
 
 
 video {
@@ -14,10 +15,14 @@ body{
   font-family: "Raleway" !important;
 }
 
+h2 {
+  color: #286088;
+  font-family: 'Arimo', sans-serif;
+}
 
 
 nav a:hover {
-  color: #6cc644 !important;
+  color: #286088 !important;
 }
 
 /* a {
@@ -104,9 +109,14 @@ blockquote {
 }
 
 
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
+
+
+.ctn-member h2, .ctn-member a {
+  color: #286088;
+}
+
