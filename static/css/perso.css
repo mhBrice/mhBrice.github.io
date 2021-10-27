@@ -16,13 +16,13 @@ body{
 }
 
 h2 {
-  color: green;
+  color: #286088;
   font-family: 'Arimo', sans-serif;
 }
 
 
 nav a:hover {
-  color: #6cc644 !important;
+  color: #286088 !important;
 }
 
 /* a {
@@ -109,9 +109,14 @@ blockquote {
 }
 
 
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
+
+
+.ctn-member h2, .ctn-member a {
+  color: #286088;
+}
+
