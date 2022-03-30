@@ -16,28 +16,28 @@
 - given: Samuel
   family: Martin
   role: MSc
-  years: "2021-..."
+  years: "2022-..."
   alumni: false
   title:
 
 - given: Marjorie
   family: Roméo
   role: Stagiaire MSc
-  years: "2021-..."
+  years: "2022"
   alumni: false
   title:
 
 - given: Chloé
   family: Leblanc-Gagné
   role: MSc
-  years: "2020-..."
+  years: "2021-..."
   alumni: false
   title: "Diversité végétale des pelouses urbaines en gestion différenciée"
 
 - given: Dominique
   family: Havel
   role: Stagiaire MSc
-  years: 2020
+  years: 2021
   alumni: true
   pic: "/img/havel.jpg"
   title: "Évaluation et recommandations pour le programme de subvention pour le remplacement des frênes atteints par l’agrile du frêne de la ville de Montréal"
