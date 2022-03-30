@@ -1,13 +1,40 @@
 ---
 references:
 - author:
+    - family: Grondin
+      given: Pierre
+    - family: Brice
+      given: Marie-Hélène
+    - family: Boulanger
+      given: Yan
+    - family: Morneau
+      given: Claude
+    - family: Couillard
+      given: Pierre-Luc
+    - family: Richard
+      given: Pierre J.H.
+    - family: Chalumeau
+      given: Aurélie
+    - family: Poirier
+      given: Véronique
+  container: "In: Girona MM, Morin H, Gauthier S, Bergeron Y (eds) Boreal forests in the face of climate change - Sustainable management. Advances in Global Change Research. Springer-Nature."
+  issued:
+    - year: 2022
+  language: en
+  source: Wiley Online Library
+  title: "Ecological classification in forest ecosystem management: Links between current practice and future climate change in a Québec case study."
+  type: book-chapter
+  URL: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/ece3.6913'
+  page: XXX-XXX
+
+- author:
     - family: Kirk
       given: David
     - family: Brice
       given: Marie-Hélène
     - family: Bradstreet
       given: Michael
-  container-title: Ecology and Evolution
+  container: Ecology and Evolution
   DOI: https://doi.org/10.1002/ece3.6913
   ISSN: 2045-7758
   issue: 1
@@ -36,7 +63,7 @@ references:
       given: Pierre
     - family: Fortin
       given: Marie-Josée
-  container-title: Global Change Biology
+  container: Global Change Biology
   DOI: 10.1111/gcb.15143
   ISSN: 1365-2486
   issue: 8
@@ -66,7 +93,7 @@ references:
       given: Marie-Hélène
     - family: Pellerin
       given: Stéphanie
-  container-title: PLOS ONE
+  container: PLOS ONE
   container-title-short: PLoS ONE
   DOI: 10.1371/journal.pone.0229146
   editor:
@@ -119,7 +146,7 @@ references:
   title: 'Homogenization of freshwater lakes: Recent compositional shifts in fish
     communities are explained by gamefish movement and not climate change.'
   title-short: Homogenization of freshwater lakes
-  container-title: Global Change Biology
+  container: Global Change Biology
   publisher: Wiley
   page: 4222-4233
   volume: '25'
@@ -145,7 +172,7 @@ references:
   - year: 2019
     month: 7
   title: Disturbances amplify tree community responses to climate change in the temperate-boreal ecotone.
-  container-title: Global Ecology and Biogeography
+  container: Global Ecology and Biogeography
   publisher: Wiley
   page: 1668-1681
   volume: '28'
@@ -166,7 +193,7 @@ references:
   - year: 2019
     month: 9
   title: Long-Term Impact of a Major Ice Storm on Tree Mortality in an Old-Growth Forest.
-  container-title: Forest Ecology and Management
+  container: Forest Ecology and Management
   publisher: Elsevier
   page: 386-394
   volume: '448'
@@ -211,7 +238,7 @@ references:
       day: 20
   title: "Analysing ecological networks of species interactions: Analyzing ecological
     networks."
-  container-title: Biological Reviews
+  container: Biological Reviews
   page: 16-36
   volume: '94'
   issue: '1'
@@ -236,7 +263,7 @@ references:
       month: 7
   title: "Does urbanization lead to taxonomic and functional homogenization in
     riparian forests?"
-  container-title: Diversity and Distributions
+  container: Diversity and Distributions
   URL: 'http://doi.wiley.com/10.1111/ddi.12565'
   DOI: 10.1111/ddi.12565
 
@@ -256,7 +283,7 @@ references:
     - year: 2016
       month: 9
   title: "Environmental filtering and spatial processes in urban riparian forests."
-  container-title: Journal of Vegetation Science
+  container: Journal of Vegetation Science
   URL: 'http://doi.wiley.com/10.1111/jvs.12425'
   DOI: 10.1111/jvs.12425
 
@@ -276,7 +303,7 @@ references:
   volume: '21'
   issue: '2'
   title: "Liana distribution in response to urbanization in temperate forests."
-  container-title: Écoscience
+  container: Écoscience
   URL: 'https://www.tandfonline.com/doi/full/10.2980/21-2-3692'
   DOI: 10.2980/21-2-3692
 

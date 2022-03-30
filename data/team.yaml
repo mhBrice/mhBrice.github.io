@@ -4,22 +4,41 @@
   alumni: false
   pic: "/img/mhb2.jpg"
   # https://avatars.githubusercontent.com/u/19242856?v=4
-  # 
+  #
   description: "Je suis chercheuse-botaniste au Jardin Botanique de Montréal, professeure associée à l'Université de Montréal et membre de l'Institut de recherche en biologie végétale. En dehors du travail, je continue de regarder les plantes et de me promener en forêt!"
   github: mhBrice
   researchgate: Marie_Helene_Brice
   website: https://mhbrice.github.io/
   orcid: 0000-0001-9505-1860
   gscholar: GCSsqVoAAAAJ&hl
-  phone: +1 514 872 XXXX
   email: marie-helene.brice@umontreal.ca
+
+- given: Samuel
+  family: Martin
+  role: MSc
+  years: "2021-..."
+  alumni: false
+  title:
+
+- given: Marjorie
+  family: Roméo
+  role: Stagiaire MSc
+  years: "2021-..."
+  alumni: false
+  title:
 
 - given: Chloé
   family: Leblanc-Gagné
-  role: Étudiante MSc
+  role: MSc
+  years: "2020-..."
   alumni: false
+  title: "Diversité végétale des pelouses urbaines en gestion différenciée"
 
 - given: Dominique
   family: Havel
   role: Stagiaire MSc
-  alumni: false
+  years: 2020
+  alumni: true
+  pic: "/img/havel.jpg"
+  title: "Évaluation et recommandations pour le programme de subvention pour le remplacement des frênes atteints par l’agrile du frêne de la ville de Montréal"
+  description: "Le projet de Dominique cherche à évaluer l'efficacité du programme de gestion de l'argrile du frêne de la ville de Montréal. Est-ce que le programme réussi à ralentir la perte d'arbres sur le territoire de la ville? Comment est-ce que le programme impacte la biodiversité de la forêt urbaine? Quels facteurs influencent l'adhésion citoyenne? En partenariat avec la ville de Montréal, le projet vise à améliorer la gestion de l'agrile du frêne en évaluant le programme de manière quantitative et qualitative. Pendant ses temps libres, Dominique fait de la pâtisserie ou va prendre un café avec ses amis."

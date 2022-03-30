@@ -1,27 +1,30 @@
 {{ range .Site.Data.team }}
-  
-<div class="ctn-member flex justify-around ba bw2 br3 mb3 pa2">    
+
+<div class="ctn-member flex justify-around ba bw1 br3 mb3 pa1">
     <div class="fl w-25 pa3">
       <img class="br-pill" src={{ .pic | default "https://avatars.githubusercontent.com/u/583231?v=4" }} alt="{{ .given }} {{ .family }}' avatar'">
     </div>
-    
+
     <div class="fl w-75">
-    
-    <h1>
+
+    <h2>
       {{ .given }} {{ .family }}
+    </h2>
+    <h3>{{ .role }}, {{ .years }}
       {{ if .github }} <a href="https://github.com/{{ .github }}"><i class="fab fa-github" aria-hidden></i></a> {{ end }}
       {{ if .twitter }} <a href="https://twitter.com/{{ .twitter }}"><i class="fab fa-twitter" aria-hidden></i></a> {{ end }}
       {{ if .website }} <a href="{{ .website }}"><i class="fa fa-globe" aria-hidden></i></a> {{ end }}
       {{ if .orcid }} <a href="http://orcid.org/{{ .orcid }}"><i class="fab fa-orcid" aria-hidden></i></a> {{ end }}
       {{ if .researchgate }} <a href="https://www.researchgate.net/profile/{{ .researchgate }}"><i class="fab fa-researchgate"></i></a> {{ end }}
       {{ if .linkedin}} <a href='{{ (printf "https://ca.linkedin.com/in/%s" .linkedin) | safeURL }}'><i class="fab fa-linkedin-in"></i></a> {{ end }}
-    </h1> 
-    <h2>{{ .role }}</h2>
-    <span class="f4">
+    </h3>
+
+    <h3>{{ .title }}</h3>
+    <span class="f5">
     {{ .description }}
     </span>
     </div>
-  
+
   </div>
 
 
