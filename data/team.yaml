@@ -5,7 +5,8 @@
   pic: "/img/mhb2.jpg"
   # https://avatars.githubusercontent.com/u/19242856?v=4
   #
-  description: "Je suis chercheuse-botaniste au Jardin Botanique de Montréal, professeure associée à l'Université de Montréal et membre de l'Institut de recherche en biologie végétale. En dehors du travail, je continue de regarder les plantes et de me promener en forêt!"
+  description: "Je suis chercheuse-botaniste au Jardin Botanique de Montréal, professeure associée à l'Université de Montréal et membre de l'Institut de recherche en biologie végétale."
+  interest: "En dehors du travail, je continue de regarder les plantes et de me promener en forêt!"
   github: mhBrice
   researchgate: Marie_Helene_Brice
   website: https://mhbrice.github.io/
@@ -18,14 +19,20 @@
   role: MSc
   years: "2022-..."
   alumni: false
-  title:
+  pic: "/img/students/martin.jpg"
+  title: "Comparaison de mélanges d'ensemencement pour le verdissement des fosses de plantation urbaines: identifier la meilleure solution en termes de la réduction des îlots de chaleur, de biodiversité et de niveau d’entretien."
+  description: "Mon projet vise à tester différents mélanges d’espèces végétales ensemencées dans des fosses de trottoir dans l'arrondissement Mercier-Hochelaga-Maisonneuve et à évaluer à la fois leur performance (e.g., germination, recouvrement) et les bénéfices (écologiques et sociologiques). Cela permettra d’identifier les mélanges qui sont capables de s’implanter de façon optimale malgré les conditions urbaines (sécheresse, sel de déglaçage) et conseiller les municipalités pour de futurs projets de verdissement à Montréal. Ce projet multidisciplinaire vise aussi à évaluer le niveau d'appréciation des citoyens face à ces différents aménagements et leur intérêt à s’impliquer."
+  interest: "En dehors de la maîtrise, je suis musicien et je vais prendre un verre avec mes amis."
 
 - given: Marjorie
   family: Roméo
   role: Stagiaire MSc
   years: "2022"
   alumni: false
-  title:
+  pic: "/img/students/romeo.jpg"
+  title: "Quels facteurs environnementaux expliquent l'abondance de 3 espèces exotiques envahissantes arbustives dans les parcs urbains de Montréal?"
+  description: "Dans ce stage de recherche, nous analysons la relation entre l’abondance d’espèces exotiques envahissantes et des facteurs environnementaux à l’échelle du paysage et locale à partir de 50 boisés échantillonnés en 2018 à Montréal. Nous avons choisi d’observer 3 espèces arbustives non-natives du Québec parmi les plus abondantes: Rhamnus cathartica, Frangula alnus et Lonicera tatarica. L'analyse de la distribution d'abondance de ces 3 espèces invasives nous permet de comprendre les conditions qui favorisent leur prolifération."
+  interest: "Au-delà de son intérêt pour l’étude des communautés végétales, je suis passionnée de longboard de descente que je pratique à un haut-niveau. Je suis aussi passionnée d’escalade et de randonnée, vous me croiserez sûrement dans les montagnes durant l’été."
 
 - given: Chloé
   family: Leblanc-Gagné
@@ -39,6 +46,7 @@
   role: Stagiaire MSc
   years: 2021
   alumni: true
-  pic: "/img/havel.jpg"
+  pic: "/img/students/havel.jpg"
   title: "Évaluation et recommandations pour le programme de subvention pour le remplacement des frênes atteints par l’agrile du frêne de la ville de Montréal"
-  description: "Le projet de Dominique cherche à évaluer l'efficacité du programme de gestion de l'argrile du frêne de la ville de Montréal. Est-ce que le programme réussi à ralentir la perte d'arbres sur le territoire de la ville? Comment est-ce que le programme impacte la biodiversité de la forêt urbaine? Quels facteurs influencent l'adhésion citoyenne? En partenariat avec la ville de Montréal, le projet vise à améliorer la gestion de l'agrile du frêne en évaluant le programme de manière quantitative et qualitative. Pendant ses temps libres, Dominique fait de la pâtisserie ou va prendre un café avec ses amis."
+  description: "Mon projet cherche à évaluer l'efficacité du programme de gestion de l'argrile du frêne de la ville de Montréal. Est-ce que le programme réussi à ralentir la perte d'arbres sur le territoire de la ville? Comment est-ce que le programme impacte la biodiversité de la forêt urbaine? Quels facteurs influencent l'adhésion citoyenne? En partenariat avec la ville de Montréal, mon projet vise à améliorer la gestion de l'agrile du frêne en évaluant le programme de manière quantitative et qualitative."
+  interest: "Pendant mes temps libres, je fais de la pâtisserie ou je vais prendre un café avec mes amis."
