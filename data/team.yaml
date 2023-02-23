@@ -42,11 +42,12 @@
   role: Master
   years: "2023-..."
   alumni: false
-  pic: 
+  pic: "/img/students/clementine_demontgolfier.jpg"
   title: "Dynamique de recrutement des arbres dans l'écotone boréal-tempéré"
-  description: 
-  interest: 
-  email: 
+  description: "Pendant ce stage, j'étudie la dynamique de recrutement des arbres dans l'écotone boréal-tempéré et comment elle a changé depuis les 50 dernières années. Je cherche à modéliser ce processus et à comprendre les effets de différents paramètres biotiques et abiotiques et des perturbations sur le recrutement. J'aime particulièrement la partie informatique. Dans mes temps libres, il m'arrive même d'apprendre des nouveaux langages XD."
+  interest: "Sinon j'aime beaucoup les podcasts, les bd et les ballades à roller."
+  email: "clementine.de.montgolfier@ens.psl.eu"
+  github: "https://github.com/clem9123" 
 
 - given: Mélanie
   family: Primeau
